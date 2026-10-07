@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ekemini-Abasi Moses | Web Developer & Data Analyst</title>
+  <meta name="description" content="Web developer and data analysis enthusiast building clean websites and turning data into decisions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="#home" class="logo">E. Moses</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="menu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="role">Web Developer &amp; Data Analyst</p>
+        <h1>Ekemini-Abasi Moses</h1>
+        <p class="lead">I build clean, fast websites and turn raw data into clear answers.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">See my work</a>
+          <!-- Replace with the path to your CV -->
+          <a class="btn ghost" href="cv/your-cv.pdf" download>Download CV</a>
+        </div>
+      </div>
+      <div class="photo">
+        <span class="initials" aria-hidden="true">EM</span>
+        <!-- Replace images/me.jpg with your photo -->
+        <img src="assets/headshot_one.jpeg" alt="Portrait of Ekemini-Abasi Moses" onerror="this.remove()">
+      </div>
+    </section>
+
+    <section id="about" class="section narrow">
+      <h2>About me</h2>
+      <p>I like making things that work and make sense. On the web side, I build responsive interfaces people enjoy using. On the data side, I clean, analyse and visualise numbers until the story is obvious. I'm always learning, and always building.</p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skill-groups">
+        <div>
+          <h3>Web development</h3>
+          <ul class="tags">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React JS</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Data analysis</h3>
+          <ul class="tags">
+            <li>Excel</li><li>MySQL</li><li>Power BI</li><li>Python</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="grid">
+
+        <article class="card">
+          <div class="thumb">
+            <img src="assets/Screenshot 2026-10-07 124225.png" alt="Project one screenshot" onerror="this.remove()">
+          </div>
+          <div class="card-body">
+            <h3>Online Tutor Portfolio</h3>
+            <p>A responsive website showcasing the services and expertise of an online tutor.</p>
+            <ul class="tags small"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="links">
+              <a href="https://github.com/Kemmy112/tutor-portfolio" target="_blank" rel="noopener">View code</a>
+              <a href="https://tutor-portfolio-seven.vercel.app" target="_blank" rel="noopener">Live demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="assets/Screenshot 2026-10-06 123755.png" alt="Project two screenshot" onerror="this.remove()">
+          </div>
+          <div class="card-body">
+            <h3>Study Planner App</h3>
+            <p>TGEN is a smart student study-planning application that generates personalized, difficulty-aware study timetables based on a student’s courses, academic goals, workload, and performance priorities.</p>
+            <ul class="tags small"><li>React JS</li><li>CSS</li></ul>
+            <div class="links">
+              <a href="https://github.com/Kemmy112/tgenn-app" target="_blank" rel="noopener">View code</a>
+              <a href="https://tgenn-app.vercel.app" target="_blank" rel="noopener">Live demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="assets/Screenshot 2026-10-06 130520.png" alt="Project three screenshot" onerror="this.remove()">
+          </div>
+          <div class="card-body">
+            <h3>Tech Startups Analysis</h3>
+            <p>This project analyses global tech startups and their progress across different stages of growth, from Seed and Early Stage to Post-IPO.
+  </p>
+            <ul class="tags small"><li>Python</li><li>Power BI</li></ul>
+            <div class="links">
+              <a href="https://github.com/Kemmy112/globaltechstartupanalysis" target="_blank" rel="noopener">View code</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Let's work together</h2>
+      <p>Have a project or a role in mind? Send me a message.</p>
+      <div class="actions center">
+        <a class="btn" href="mailto:mosesekeminiabasi77@gmail.com">Send an email</a>
+        <a class="btn ghost" href="https://wa.me/2347044087713" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn ghost" href="https://github.com/Kemmy112" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="year"></span> Ekemini-Abasi Moses</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
